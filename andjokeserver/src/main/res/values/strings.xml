@@ -2,5 +2,5 @@
     <string name="app_name">AndJokeServer</string>
     <string name="no_more_jokes">No more jokes</string>
     <string name="joker">joker</string>
-    <string name="reload_joke">Reload another Joke</string>
+    <string name="reload_joke">Tell another joke</string>
 </resources>

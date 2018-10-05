@@ -7,36 +7,30 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivityFragment">
+    tools:context=".MainActivityFragment"
+    android:background="@drawable/duckjoke">
 
     <TextView
         android:id="@+id/instructions_text_view"
-        android:layout_width="266dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="63dp"
-        android:textSize="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/instructions"
         android:textStyle="bold"
-        android:text="@string/instructions" />
+        android:textSize="24sp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/instructions_text_view"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="88dp"
+        android:layout_below="@id/instructions_text_view"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:onClick="tellJoke"
         android:text="@string/button_text" />
-
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id" />
 
 </RelativeLayout>
