@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 
 /**
@@ -16,6 +17,9 @@ import com.google.android.gms.ads.AdView;
 public class MainActivityFragment extends Fragment {
 
     public MainActivityFragment() {
+//        MobileAds.initialize(getContext(), "ca-app-pub-3940256099942544~3347511713");
+        // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
+//        MobileAds.initialize(this, "YOUR_ADMOB_APP_ID");
     }
 
     @Override

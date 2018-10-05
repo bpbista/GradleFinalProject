@@ -8,10 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.google.android.gms.ads.MobileAds;
-
 import np.com.bpb.andjokeserver.JokesTellerActivity;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,12 +23,6 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
-
-        // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
-//        MobileAds.initialize(this, "YOUR_ADMOB_APP_ID");
-        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
-
-
         return true;
     }
 
