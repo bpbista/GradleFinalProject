@@ -78,3 +78,8 @@ To tie it all together, created a Gradle task that:
 2. Runs all tests
 3. Shuts the server down again
 
+# Screenshots
+
+<img width="258" alt="joke main screen 2018-10-10 at 2 26 25 pm" src="https://user-images.githubusercontent.com/35947837/48363738-9bd7b500-e674-11e8-90ad-151dcf7a0a17.png">
+<img width="265" alt="joke screen 2018-10-10 at 2 24 52 pm" src="https://user-images.githubusercontent.com/35947837/48363739-9c704b80-e674-11e8-98a9-464834e6b81b.png">
+
